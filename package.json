@@ -1,0 +1,29 @@
+{
+  "name": "qrcode2",
+  "version": "1.0.0",
+  "description": "This is just a simple program for generating the QR code and reading the qr code. This is just simple. I have taken help from CHATGPT and two article",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INVINCIBLE06/Qr-Code-Generate-Read.git"
+  },
+  "keywords": [
+    "QrCode",
+    "QR",
+    "Code"
+  ],
+  "author": "Saurabh Pande (Some Help from CHAT GPT and two articles)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INVINCIBLE06/Qr-Code-Generate-Read/issues"
+  },
+  "homepage": "https://github.com/INVINCIBLE06/Qr-Code-Generate-Read#readme",
+  "dependencies": {
+    "jimp": "^0.22.8",
+    "qr-image": "^3.2.0",
+    "qrcode-reader": "^1.0.4"
+  }
+}
