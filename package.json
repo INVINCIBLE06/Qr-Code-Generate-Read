@@ -1,7 +1,7 @@
 {
-  "name": "qrcode2",
+  "name": "qrcode",
   "version": "1.0.0",
-  "description": "This is just a simple program for generating the QR code and reading the qr code. This is just simple. I have taken help from CHATGPT and two article",
+  "description": "This is just a simple program for generating and reading the QR code.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
