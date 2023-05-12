@@ -20,12 +20,12 @@ const qrCodeImage = qr.imageSync
 
 let qrName = `qr-Code` + Math.random();
 
-fs.writeFileSync(`QrCode/${qrName}.png`, qrCodeImage);
+fs.writeFileSync(`Bar Code/${qrName}.png`, qrCodeImage);
 
 console.log(`QR code is generated with file name :- ${qrName}.png`);
 
 // Read the image and create a buffer
-const buffer = fs.readFileSync(`QrCode/${qrName}.png`);
+const buffer = fs.readFileSync(`Bar Code/${qrName}.png`);
 
 // Parse the image using Jimp.read()
 Jimp.read(buffer, function(err, image) 
